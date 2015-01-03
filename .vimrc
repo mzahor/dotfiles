@@ -26,7 +26,6 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'bling/vim-airline'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'pangloss/vim-javascript'
-Plugin 'wlangstroth/vim-racket'
 call vundle#end()
 syntax on
 set expandtab
