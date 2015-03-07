@@ -1,5 +1,7 @@
 git config --global user.email "marian.zagoruiko@gmail.com"
 git config --global user.name "Marian Zagoruiko"
+git config --global core.editor vim
+git config --global push.default simple
 git config --global alias.st status 
 git config --global alias.ci commit 
 git config --global alias.br branch 
