@@ -20,7 +20,7 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
-Plugin 'wincent/command-t'
+Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'bling/vim-airline'
@@ -45,8 +45,7 @@ let g:airline_powerline_fonts = 1
 colorscheme bubblegum
 set tw=79
 
-nnoremap <silent> <Leader>t :CommandT<CR>
-nnoremap <silent> <Leader>b :CommandTBuffer<CR>
+nnoremap <silent> <Leader>t :CtrlP<CR>
 nnoremap <silent> <Leader>v "*p 
 vnoremap <silent> <Leader>c "*y 
 nnoremap <silent> <Leader>, :e $MYVIMRC<CR> 
