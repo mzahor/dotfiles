@@ -26,6 +26,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'bling/vim-airline'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'pangloss/vim-javascript'
+Plugin 'sjl/badwolf'
 call vundle#end()
 syntax on
 set expandtab
@@ -34,6 +35,8 @@ set softtabstop=2
 set laststatus=2
 set showcmd
 set incsearch
+set t_ut=
+set ignorecase!
 
 set nobackup       
 set nowritebackup  
