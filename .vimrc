@@ -27,12 +27,13 @@ Plugin 'bling/vim-airline'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'pangloss/vim-javascript'
 Plugin 'sjl/badwolf'
+Plugin 'SirVer/ultisnips'
 call vundle#end()
 syntax on
 set expandtab
-set shiftwidth=2
-set softtabstop=2
-set laststatus=2
+set shiftwidth=4
+set softtabstop=4
+set laststatus=4
 set showcmd
 set incsearch
 set t_ut=
