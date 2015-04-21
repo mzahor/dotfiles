@@ -28,6 +28,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'pangloss/vim-javascript'
 Plugin 'sjl/badwolf'
 Plugin 'SirVer/ultisnips'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 syntax on
 set expandtab
