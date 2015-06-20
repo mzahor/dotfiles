@@ -9,8 +9,8 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 set number
-set t_Co=256
 set background=dark
+set t_Co=256
 "set hlsearch	     
 set scrolloff=5	
 
@@ -29,6 +29,10 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'sjl/badwolf'
 Plugin 'SirVer/ultisnips'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'groenewege/vim-less'
+Plugin 'editorconfig/editorconfig-vim'
 call vundle#end()
 syntax on
 set expandtab
@@ -47,6 +51,7 @@ set cursorline cursorcolumn
 
 let g:airline_powerline_fonts = 1
 "colorscheme kolor
+let g:solarized_termcolors=256
 colorscheme bubblegum
 set tw=79
 
@@ -54,4 +59,6 @@ nnoremap <silent> <Leader>t :CtrlP<CR>
 nnoremap <silent> <Leader>v "*p 
 vnoremap <silent> <Leader>c "*y 
 nnoremap <silent> <Leader>, :e $MYVIMRC<CR> 
-
+let g:ctrlp_open_multiple_files='v'
+" Force saving files that require root permission 
+cmap w!! w !sudo tee > /dev/null %
