@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_custom_default_size" mtime="1439668715" type="bool" value="false"/>
+	<entry name="background_darkness" mtime="1439668569" type="float" value="0.89485001564025879"/>
+	<entry name="background_type" mtime="1439668569" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+	<entry name="use_theme_colors" mtime="1439668569" type="bool" value="false"/>
+	<entry name="font" mtime="1439668690" type="string">
+		<stringvalue>Ubuntu Mono derivative Powerline 12</stringvalue>
+	</entry>
+	<entry name="use_system_font" mtime="1439668669" type="bool" value="false"/>
+	<entry name="palette" mtime="1439668569" type="string">
+		<stringvalue>#2E2E34343636:#DEB76A296A29:#8DF8DDDD8756:#DF91D9B27C74:#72729F9FCFCF:#C5387CFBDDDD:#060698209A9A:#D3D3D7D7CFCF:#555557575353:#EFEF29292929:#743ACE8072F4:#FCFCE9E94F4F:#72729F9FCFCF:#ADAD7F7FA8A8:#3434E2E2E2E2:#EEEEEEEEECEC</stringvalue>
+	</entry>
+	<entry name="alternate_screen_scroll" mtime="1439668569" type="bool" value="true"/>
+	<entry name="background_color" mtime="1439668569" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1439668569" type="string">
+		<stringvalue>Default</stringvalue>
+	</entry>
+	<entry name="bold_color" mtime="1439668569" type="string">
+		<stringvalue>#000000000000</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1439668569" type="string">
+		<stringvalue>#AAAAAAAAAAAA</stringvalue>
+	</entry>
+</gconf>
