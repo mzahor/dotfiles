@@ -32,6 +32,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'groenewege/vim-less'
+"Plugin 'phildawes/racer'
 Plugin 'editorconfig/editorconfig-vim'
 call vundle#end()
 syntax on
@@ -55,6 +56,7 @@ let g:solarized_termcolors=256
 colorscheme bubblegum
 set tw=79
 
+let mapleader = "\<Space>"
 nnoremap <silent> <Leader>t :CtrlP<CR>
 nnoremap <silent> <Leader>v "*p 
 vnoremap <silent> <Leader>c "*y 
