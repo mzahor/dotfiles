@@ -50,7 +50,7 @@ set tabstop=4
 set wrap
 
 let base16colorspace=256
-colorscheme onedark
+colorscheme Tomorrow-Night
 
 let g:ag_working_path_mode="r"
 
@@ -73,10 +73,10 @@ vnoremap . :normal .<CR>
 set path=.,,**
 
 " Powerline setup
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim
+" python from powerline.vim import setup as powerline_setup
+" python powerline_setup()
+" python del powerline_setup
+" set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim
 
 " Enable mouse
 set mouse=a
