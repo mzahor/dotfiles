@@ -50,7 +50,6 @@ set tabstop=4
 set wrap
 
 let base16colorspace=256
-colorscheme Tomorrow-Night
 
 let g:ag_working_path_mode="r"
 
@@ -109,3 +108,4 @@ nmap <C-l> gt
 nmap <C-h> gT
 nnoremap ; :
 vnoremap ; :
+set clipboard=unnamed
