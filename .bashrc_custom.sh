@@ -1,13 +1,13 @@
 # go development
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=/Users/mzahor/src/go
-export PATH=$PATH:$GOPATH/bin
+# export PATH=$PATH:/usr/local/go/bin
+# export GOPATH=/Users/mzahor/src/go
+# export PATH=$PATH:$GOPATH/bin
 
 # python development
-VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/src
-source /usr/local/bin/virtualenvwrapper.sh
+# VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+# export WORKON_HOME=$HOME/.virtualenvs
+# export PROJECT_HOME=$HOME/src
+# source /usr/local/bin/virtualenvwrapper.sh
 
 # git stuff
 function make_pullrequest {
