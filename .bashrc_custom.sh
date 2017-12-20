@@ -69,12 +69,3 @@ fcs() {
 alias pr=make_pullrequest
 alias gporigin="git push -u origin \`git rev-parse --abbrev-ref HEAD\`"
 
-# playbuzz aliases
-alias cdpb="cd ~/playbuzz"
-alias cdplayer="cd ~/playbuzz/containers-client"
-alias cdcreate="cd ~/playbuzz/containers-create-client"
-alias runplayer="cdplayer && grunt server"
-alias runcreate="cdcreate && grunt server"
-alias buildall="cdplayer && grunt && cdcreate && grunt"
-alias installall="cdplayer && npm i && bower i && cdcreate && npm i && bower i"
-alias pullall="cdplayer && git pull && cd create && git pull"
