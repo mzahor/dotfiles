@@ -67,5 +67,8 @@ fcs() {
 }
 
 alias pr=make_pullrequest
-alias gporigin="git push -u origin \`git rev-parse --abbrev-ref HEAD\`"
-
+alias gpo="git push -u origin \`git rev-parse --abbrev-ref HEAD\`"
+alias g=git
+alias ni="npm i"
+alias sadd="ssh-add ~/.ssh/pb-mzahor"
+alias s="npm start"
