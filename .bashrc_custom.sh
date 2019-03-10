@@ -72,3 +72,4 @@ alias g=git
 alias ni="npm i"
 alias sadd="ssh-add ~/.ssh/pb-mzahor"
 alias s="npm start"
+alias ints="node ~/src/intellims/index.js"
