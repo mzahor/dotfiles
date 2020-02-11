@@ -20,7 +20,7 @@ function make_pullrequest {
 	read -n1 -r -p "Press 'y' to continue...  " key;
 	if [ "$key" = 'y' ]; then
     	git co -b "$1" && git push -u origin "$1" && git co "$BR";
-	fi	
+	fi
 	# git br -d $1 #delete after successful request
 }
 
@@ -70,6 +70,4 @@ alias pr=make_pullrequest
 alias gpo="git push -u origin \`git rev-parse --abbrev-ref HEAD\`"
 alias g=git
 alias ni="npm i"
-alias sadd="ssh-add ~/.ssh/pb-mzahor"
 alias s="npm start"
-alias ints="node ~/src/intellims/index.js"
